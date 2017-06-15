@@ -7,6 +7,7 @@
  */
 public class Main {
     public static void main(String[] args){
-        System.out.println("Buffer project");
+        System.out.println("Buffer project!");
+        System.out.printl("Update project from github!");
     }
 }

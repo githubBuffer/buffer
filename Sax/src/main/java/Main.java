@@ -20,23 +20,13 @@ import org.xml.sax.SAXException;
  * Class of ${CLASS}.
  *
  * @author Siarhei Tuzhyk.
- * @version 1.0
+ * @version 1.1
  * @since 01.06.2017.
  */
 public class Main {
 
     public static void main(String[] args)
         throws ParserConfigurationException, SAXException, IOException {
-       /* SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
-        SAXParser parser = saxParserFactory.newSAXParser();
-        MySaxParser mySaxParser = new MySaxParser();
-        parser.parse(new File("/test.xml"), mySaxParser);
-        List<Car> cars = mySaxParser.getCarList();
-        System.out.println("Cars: ");
-        for (Car car : cars) {
-            System.out.println(car.toString());
-        }
-        */
         /*
         try {
             ByteArrayOutputStream os = new ByteArrayOutputStream();
@@ -58,6 +48,17 @@ public class Main {
             ex.printStackTrace();
         }
         */
+       /* SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+        SAXParser parser = saxParserFactory.newSAXParser();
+        MySaxParser mySaxParser = new MySaxParser();
+        parser.parse(new File("/test.xml"), mySaxParser);
+        List<Car> cars = mySaxParser.getCarList();
+        System.out.println("Cars: ");
+        for (Car car : cars) {
+            System.out.println(car.toString());
+        }
+        */
+        
         String string = new String("hello my friend and m mother");
         String[] strings = string.split(" ");
         String buff="";
@@ -69,9 +70,6 @@ public class Main {
                     strings[i]=buff;
                 }
             }
-        }
-        for (String s : strings) {
-            System.out.println(s);
         }
 
         Arrays.sort(strings, new Comparator<String>(){

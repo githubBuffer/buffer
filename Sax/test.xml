@@ -1,0 +1,33 @@
+<?xml versin ="1.0" encoding="UTF-8"?>
+<Price_list>
+	<Car id="1">
+		<name>VW</name>
+		<model>Passat</model>
+		<description>Good car!</description>
+		<price>5000</price>
+	</Car>
+	<Car id="2">
+		<name>Nissan</name>
+		<model>Almera</model>
+		<description>Not fast</description>
+		<price>3000</price>
+	</Car>
+	<Car id="3">
+		<name>Mazda</name>
+		<model>GT</model>
+		<description>Fastcar!</description>
+		<price>5000</price>
+	</Car>
+	<Car id="4">
+		<name>Mercedes</name>
+		<model>CLK</model>
+		<description>Premium car!</description>
+		<price>50000</price>
+	</Car>
+	<Car id="5">
+		<name>MAZ</name>
+		<model>204</model>
+		<description>This is a bus!</description>
+		<price>9000</price>
+	</Car>
+</Price_list>

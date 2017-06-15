@@ -10,5 +10,6 @@ public class Main {
         System.out.println("Buffer project!");
         System.out.println("Update project from github!");
         System.out.println("Heyyyyyyooooooyyyyy");
+        System.out.println("Repeate update project");
     }
 }

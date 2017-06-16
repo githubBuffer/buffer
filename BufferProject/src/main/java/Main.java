@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Buffer project!");
         int x = 1;
         for(int i=0;i<10;i++){
-            ++x=i++;
+            x=i++;
         }
         System.out.println(x);
         System.out.println("Update project from github!");
